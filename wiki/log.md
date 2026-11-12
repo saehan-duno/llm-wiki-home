@@ -15,3 +15,5 @@
 ## [2026-11-12] ingest | qmd README 2차 (raw/qmd-readme.md 전체 1-1587줄 읽음) - 신규 2(smart-chunking, metadata-filtering), 갱신 3(qmd-readme, qmd, hybrid-search), index 갱신. README 내부 불일치 4건 표로 기록
 
 ## [2026-11-12] ingest | Marp README (raw/marp-readme.md, 전체 읽음) - 신규 2(marp-readme, marp), 갱신 1(obsidian), index 갱신. 입구 페이지라 사용법 정보 없음. Bush 'As We May Think'는 원문 접근 실패로 미처리
+
+## [2026-11-12] ingest | herdr README (raw/herdr-readme.md, 전체 읽음) - 신규 2(herdr-readme, herdr), index 갱신. 문서 사이트(herdr.dev/docs)는 미독
