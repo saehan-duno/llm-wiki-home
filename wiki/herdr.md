@@ -1,7 +1,7 @@
 ---
 title: herdr
 type: entity
-sources: [raw/herdr-readme.md]
+sources: [raw/herdr-readme.md, raw/herdr-docs-full.md]
 updated: 2026-11-12
 ---
 
@@ -17,17 +17,28 @@ updated: 2026-11-12
 | 구현 | Rust 단일 바이너리 |
 | 라이선스 | Apache-2.0 |
 | 설치 | 설치 스크립트, Homebrew, mise, Windows 스크립트, 릴리스 바이너리 |
-| 문서 | herdr.dev/docs (이 위키는 미독) |
+| 문서 | herdr.dev/docs (일부 읽음, [[herdr-docs]]) |
 
 ## 핵심 개념
 
 - 서버/클라이언트 분리: 서버가 터미널을 유지하므로 연결이 끊겨도 작업이 계속된다. 재부팅 후에는 레이아웃과 지원 에이전트 세션만 복원되고 프로세스 자체는 복원되지 않는다.
 - 에이전트가 herdr를 도구로 쓴다(pane 생성, 에이전트 간 프롬프트, 대기).
 
+## 상세 페이지
+
+- 상태 보존: [[herdr-session-state]] — detach / 재시작 / 핸드오프별로 무엇이 살아남는지
+- 에이전트 상태 감지: [[herdr-agent-status]] — 5가지 상태, 지원 에이전트, idle이 승인이 아니라는 한계
+- Windows: [[herdr-windows]] — ConPTY 기반, 미지원 항목, 한국어 IME 관련 주의
+- 문서 사이트 요약: [[herdr-docs]]
+
+## 구조 요약 (문서 기준)
+
+workspace(프로젝트) > tab > pane(실제 터미널). 서버가 pane을 소유하고 클라이언트는 UI. 이름 있는 session으로 서버를 완전히 분리할 수 있다. 원격은 저장한 SSH 머신(`herdr machine add`) 또는 `herdr --remote <host>`. 자동화는 에이전트 스킬, CLI, 소켓 API 3계층.
+
 ## 이 위키와의 관계
 
-현재 다른 페이지와 직접 연결되는 내용은 없다. 에이전트가 파일 시스템 위에서 위키를 유지하는 [[llm-wiki]] 패턴을 여러 에이전트로 돌릴 때 쓸 수 있는 실행 환경 후보일 수 있으나, 이는 추측이며 어떤 소스에도 근거가 없다.
+에이전트가 파일 시스템 위에서 위키를 유지하는 [[llm-wiki]] 패턴을 여러 에이전트로 돌릴 때 쓸 실행 환경 후보일 수 있으나, 이는 추측이며 어떤 소스에도 근거가 없다.
 
 ## 미확인
 
-지원 에이전트 전체 목록, 소켓 API 상세, 플러그인 구조, 보안 모델은 README만으로는 알 수 없다.
+CLI reference, 설정 키 전체, 플러그인 구조, 키보드 바인딩 상세, 소켓 API 상세, 문제 해결 문서는 아직 읽지 않았다([[herdr-docs]]의 읽은 범위 표 참고). 보안 모델은 어느 소스에도 별도 설명이 없다.

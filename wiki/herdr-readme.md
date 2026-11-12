@@ -9,7 +9,7 @@ updated: 2026-11-12
 
 - 원문: https://cdn.jsdelivr.net/gh/herdrdev/herdr@master/README.md (jsDelivr가 제공하는 `herdrdev/herdr` master의 README 사본, 약 5KB, 전체 읽음)
 - 대상: [[herdr]]
-- 성격: 기능 소개와 설치 안내가 중심인 짧은 README. 세부 사용법은 herdr.dev/docs에 있으며 이 위키는 아직 읽지 않았다.
+- 성격: 기능 소개와 설치 안내가 중심인 짧은 README. 세부 내용은 [[herdr-docs]]에서 일부 보완했다.
 
 ## 확인된 내용
 

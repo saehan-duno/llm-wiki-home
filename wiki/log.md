@@ -17,3 +17,5 @@
 ## [2026-11-12] ingest | Marp README (raw/marp-readme.md, 전체 읽음) - 신규 2(marp-readme, marp), 갱신 1(obsidian), index 갱신. 입구 페이지라 사용법 정보 없음. Bush 'As We May Think'는 원문 접근 실패로 미처리
 
 ## [2026-11-12] ingest | herdr README (raw/herdr-readme.md, 전체 읽음) - 신규 2(herdr-readme, herdr), index 갱신. 문서 사이트(herdr.dev/docs)는 미독
+
+## [2026-11-12] ingest | herdr 문서 사이트 (raw/herdr-docs-full.md, llms-full.txt 5613줄 중 홈·Concepts·Agents·Session state 전체, Connecting machines·Windows·Socket API 일부 읽음) - 신규 4(herdr-docs, herdr-session-state, herdr-agent-status, herdr-windows), 갱신 2(herdr, herdr-readme), index 갱신. README와 불일치 1건(Windows beta vs GA) 기록. CLI/Config/Keyboard/Plugins 등 미독
