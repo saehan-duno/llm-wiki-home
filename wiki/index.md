@@ -26,9 +26,9 @@ ingest마다 갱신합니다. 형식: 페이지 링크 — 한 줄 요약 (날�
 - [[ingest-query-lint]] — 위키의 세 가지 연산 (2026-11-12, 1)
 - [[index-and-log]] — index.md와 log.md의 역할 (2026-11-12, 1)
 - [[hybrid-search]] — BM25 + 벡터 + 재랭킹 파이프라인, RRF와 블렌딩 (2026-11-12, 1)
-- [[herdr-session-state]] — herdr의 detach/재시작/핸드오프별 상태 보존 경로 (2026-11-12, 1)
-- [[herdr-agent-status]] — herdr의 에이전트 5가지 상태, 감지 방식과 한계 (2026-11-12, 1)
-- [[herdr-windows]] — herdr Windows 지원 범위와 한국어 IME 주의 (2026-11-12, 1)
+- [[herdr-session-state]] — herdr의 detach/재시작/핸드오프별 상태 보존 경로 (2026-11-13, 2)
+- [[herdr-agent-status]] — herdr의 에이전트 5가지 상태, 감지 방식과 한계 (2026-11-13, 2)
+- [[herdr-windows]] — herdr Windows 지원 범위와 한국어 IME 주의 (2026-11-13, 2)
 - [[smart-chunking]] — qmd의 마크다운 경계 점수 기반 청킹 (2026-11-12, 1)
 - [[metadata-filtering]] — qmd.metadata 필터와 탐색 (2026-11-12, 1)
 

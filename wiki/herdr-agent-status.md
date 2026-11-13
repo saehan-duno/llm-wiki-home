@@ -1,8 +1,8 @@
 ---
 title: herdr 에이전트 상태 감지
 type: concept
-sources: [raw/herdr-docs-full.md]
-updated: 2026-11-12
+sources: [raw/herdr-docs-full.md, raw/herdr-readme.md]
+updated: 2026-11-13
 ---
 
 # herdr 에이전트 상태 감지
