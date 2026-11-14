@@ -2,12 +2,12 @@
 title: herdr
 type: entity
 sources: [raw/herdr-readme.md, raw/herdr-docs-full.md]
-updated: 2026-11-12
+updated: 2026-11-14
 ---
 
 # herdr
 
-코딩 에이전트(claude code, codex 등)를 여러 개 띄워 놓고 관리하기 위한 터미널 기반 런타임. tmux와 비슷하게 세션을 분리·재연결하고 pane을 나누지만, 에이전트 상태(working/blocked/idle) 표시와 에이전트가 직접 조작하는 CLI/소켓 API가 특징이다. (출처: [[herdr-readme]])
+코딩 에이전트(claude code, codex 등)를 여러 개 띄워 놓고 관리하기 위한 터미널 기반 런타임. tmux와 비슷하게 세션을 분리·재연결하고 pane을 나누지만, 에이전트 상태 표시(README는 working/blocked/idle 3가지만 언급, 문서 Concepts는 blocked/working/done/idle/unknown 5가지)와 에이전트가 직접 조작하는 CLI/소켓 API가 특징이다. (출처: [[herdr-readme]])
 
 ## 요약
 
@@ -27,7 +27,7 @@ updated: 2026-11-12
 ## 상세 페이지
 
 - 상태 보존: [[herdr-session-state]] — detach / 재시작 / 핸드오프별로 무엇이 살아남는지
-- 에이전트 상태 감지: [[herdr-agent-status]] — 5가지 상태, 지원 에이전트, idle이 승인이 아니라는 한계
+- 에이전트 상태 감지: [[herdr-agent-status]] — 5가지 상태(문서 기준, README는 3가지), 지원 에이전트, idle이 승인이 아니라는 한계
 - Windows: [[herdr-windows]] — ConPTY 기반, 미지원 항목, 한국어 IME 관련 주의
 - 문서 사이트 요약: [[herdr-docs]]
 

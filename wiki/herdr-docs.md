@@ -2,7 +2,7 @@
 title: herdr 문서 사이트 (소스 요약)
 type: source
 sources: [raw/herdr-docs-full.md]
-updated: 2026-11-12
+updated: 2026-11-14
 ---
 
 # herdr 문서 사이트 (llms-full.txt)
@@ -16,7 +16,8 @@ updated: 2026-11-12
 | 문서 | 상태 |
 |---|---|
 | 문서 홈, Concepts, Agents, Session state and restore | 전체 읽음 |
-| Connecting machines, How to work, Windows support | 앞부분 위주로 읽음 |
+| Connecting machines, How to work | 앞부분 위주로 읽음 |
+| Windows support | 요약([[herdr-windows]])을 2026-11-14 원문(5438-5613줄 전체)과 대조해 확인함. ingest 당시 읽은 범위는 미확인 |
 | Socket API | 앞부분(계층, 스키마, 제어 가능 항목)만 읽음 |
 | CLI reference, Config reference, Configuration, Integrations, Keyboard, Plugins, Marketplace, Persistence and remote, Quick start, Troubleshooting, Add support, Agent automation, Agent skill | 제목 목록만 확인, **미독** |
 

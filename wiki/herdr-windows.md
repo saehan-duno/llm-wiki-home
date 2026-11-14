@@ -2,12 +2,12 @@
 title: herdr Windows 지원
 type: concept
 sources: [raw/herdr-docs-full.md, raw/herdr-readme.md]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # herdr Windows 지원
 
-(출처: [[herdr-docs]]의 Windows support 문서, 전체 읽음)
+(출처: [[herdr-docs]]의 Windows support 문서. raw/herdr-docs-full.md 5438-5613줄. 2026-11-14 원문과 대조해 아래 내용이 해당 문서의 전 섹션(Supported, Partial, Known caveats, Copy and paste, Not supported)과 일치함을 확인했다. 다만 ingest 당시 실제로 읽은 범위는 수정 전 [[herdr-docs]] 표("앞부분 위주")와 로그("일부 읽음")의 기록이 서로 어긋나 미확인이다. Reporting Windows issues 섹션은 요약에 반영하지 않았다.)
 
 - 상태: 문서는 네이티브 Windows 지원이 "generally available"이라고 한다. [[herdr-readme]]의 "beta"와 표현이 다르다.
 - 구현: Unix PTY 대신 ConPTY. 릴리스는 `%USERPROFILE%\.herdr\packages\standalone\releases`에 설치된다. 설치 명령은 PowerShell `irm | iex`이며, 엔드포인트 보안이 막으면 `install.cmd` 경로가 있다.
