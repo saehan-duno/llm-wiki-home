@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"C:/AI/.claude/team-up.sh\"",
+            "timeout": 90
+          }
+        ]
+      }
+    ]
+  }
+}
